@@ -1,4 +1,5 @@
 # Game of Life
+
 ## React Game Development 
 
 #### Project Can be found in here :
@@ -11,6 +12,7 @@
   
   ⌨  Two Begin Main Component ;
   ⌨  Creating grid as component ;
+  ⌨  Begin Method Creation ;
   ⌨  Part 1: Basic Setup ;
   ⌨  Part 2: Begin Main Component & CSS ;
   ⌨  Part 3: Create Grid Component ;
