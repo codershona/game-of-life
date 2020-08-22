@@ -3,7 +3,7 @@
 ## React Game Development 
 
 #### Project Can be found in here :
- **[Live version](https://twitch-tv-json-api.web.app/)**
+ **[Live version](https://game-of-life-e2e24.web.app)**
 
 
 * NOTES :
