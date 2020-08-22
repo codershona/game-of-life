@@ -3,6 +3,32 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 
+class Box extends React.Component {
+
+	selectBox = () => {
+
+		this.props.selectBox(this.props.row, this.props.cols)
+	}
+
+
+
+	render() {
+
+		return (
+			<div className={this.props.boxClass}
+			id={this.props.id}
+			onClick={this.selectBox}
+
+			/>
+			
+
+		);
+	}
+
+
+}
+
+
 class Grid extends React.Component {
 
 	render() {
@@ -13,7 +39,7 @@ class Grid extends React.Component {
 		var boxClass = "";
 
 		for ( var i = 0; i < this.props.rows; i++ ) {
-			for ( var j = 0; j < this.props.cols; i++ ) {
+			for ( var j = 0; j < this.props.cols; j++ ) {
           
         let boxId = i + "_" + j;
 
@@ -28,10 +54,10 @@ class Grid extends React.Component {
            row={i}
            col={j}
            selectBox={this.props.selectBox}
-           
+
            />
 
-        )
+        );
 
 
       }
@@ -40,7 +66,7 @@ class Grid extends React.Component {
 		return (
 
 			<div className="grid" style={{width: width}}>
-			{{rowsArr}}
+			{rowsArr}
 			</div>
 
 		);
