@@ -14,6 +14,8 @@
   ⌨  Creating grid as component ;
   ⌨  Begin Method Creation ;
   ⌨  Play Method and Game Logic ;
+  ⌨  Buttons w/React-Bootstrap;
+  ⌨  npm install --save react-bootstrap / npm install react-bootstrap bootstrap;
   ⌨  Part 1: Basic Setup ;
   ⌨  Part 2: Begin Main Component & CSS ;
   ⌨  Part 3: Create Grid Component ;
