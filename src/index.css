@@ -48,3 +48,12 @@ h1, h2, h3, h4 {
 h4 {
   margin-top: 0px;
 }
+
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    background-color: #fff;
+    color: black;
+    margin-left: 11px;
+
+}
