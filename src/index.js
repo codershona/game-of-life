@@ -152,10 +152,10 @@ class Main extends React.Component {
 	}
 
 	play = () => {
-
 		let g = this.state.gridFull;
 		let g2 = arrayClone(this.state.gridFull);
-for (let i = 0; i < this.rows; i++) {
+
+		for (let i = 0; i < this.rows; i++) {
 		  for (let j = 0; j < this.cols; j++) {
 		    let count = 0;
 		    if (i > 0) if (g[i - 1][j]) count++;
@@ -170,8 +170,7 @@ for (let i = 0; i < this.rows; i++) {
 		    if (!g[i][j] && count === 3) g2[i][j] = true;
 		  }
 		}
-
-			this.setState({
+		this.setState({
 		  gridFull: g2,
 		  generation: this.state.generation + 1
 		});
@@ -179,10 +178,11 @@ for (let i = 0; i < this.rows; i++) {
 	}
 
 
-
 	componentDidMount() {
 
 		this.seed();
+
+		this.playButton();
 
 
 	}
