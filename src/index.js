@@ -143,6 +143,15 @@ class Main extends React.Component {
 	}
 
 
+	playButton = () => {
+
+		clearInterval(this.intervalId)
+
+		this.intervalId = setInterval(this.play, this.speed);
+
+	}
+
+
 
 	componentDidMount() {
 

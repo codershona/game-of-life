@@ -13,6 +13,7 @@
   ⌨  Two Begin Main Component ;
   ⌨  Creating grid as component ;
   ⌨  Begin Method Creation ;
+  ⌨  Play Method and Game Logic ;
   ⌨  Part 1: Basic Setup ;
   ⌨  Part 2: Begin Main Component & CSS ;
   ⌨  Part 3: Create Grid Component ;
