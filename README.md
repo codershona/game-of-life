@@ -9,6 +9,7 @@
 
 ```
   - Two Begin Main Component ;
+  - Creating grid as component ;
   - 
 
 
