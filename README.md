@@ -9,7 +9,7 @@
 	
 <img src="https://user-images.githubusercontent.com/57604500/121777378-02f1d900-cb92-11eb-803c-12024ec4233a.png" width=956>
 <br />
-<h3 align="center">CHAT APP</h3>
+<h3 align="center">Game of Life</h3>
 </p>
 
 
